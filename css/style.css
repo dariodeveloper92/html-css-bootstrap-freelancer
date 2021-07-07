@@ -14,6 +14,16 @@ header {
     height: 100%;
     width: 100%;
 }
+
+.white {
+    color: white;
+}
+
+.text_align {
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
 /* fine header */
 
 /* main */
@@ -22,7 +32,7 @@ main {
     width: 100%;
 }
 
-.jump {
+.jumbo {
     height: 400px;
     width: 100%;
 }
@@ -37,9 +47,27 @@ main {
     width: 100%;
 }
 
-.main_bottom {
+#main_bottom {
     height: 400px;
     width: 100%;
+}
+
+.main_center .larghezza_btn,
+.main_bottom .larghezza_btn {
+    width: 100px;
+    display: flex;
+}
+
+.align_left {
+    margin: 0 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
 /* fine main */
 
@@ -57,6 +85,10 @@ footer {
 .container_footer_bottom {
     height: 90px;
     width: 100%;
+}
+
+.text_green {
+    color: rgb(8, 243, 114);
 }
 /* fine footer */
 
