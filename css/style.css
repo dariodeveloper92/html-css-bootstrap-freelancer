@@ -73,7 +73,8 @@ header .navbar .container-fluid a .my_btn {
     vertical-align: middle;
 }
 
-#line {
+.ms_star::before,
+.ms_star::after {
     height: 5px;
     width: 20%;
     border-radius: 10px;
