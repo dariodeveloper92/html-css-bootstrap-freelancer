@@ -146,6 +146,11 @@ img {
     position: relative;
     bottom: 30px;
 }
+
+.download .green_btn {
+    background-color: lightgreen;
+    border:1px solid white;
+}
 /* fine main */
 
 /* footer */
@@ -180,6 +185,14 @@ footer {
     border: 1px solid white;
 }
 
+.my_footer {
+    position: relative;
+    top: 10%;
+}
+
+.top_footer {
+    margin: 0 10%;
+}
 /* fine footer */
 
 /* DEBUG */
