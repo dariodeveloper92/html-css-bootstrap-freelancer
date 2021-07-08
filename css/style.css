@@ -12,6 +12,7 @@ body {
 .white {
     color: white;
 }
+
 /* fine common */
 
 /* header */
@@ -53,8 +54,9 @@ header {
     z-index: 99;
 }
 
-header .navbar .container-fluid a .my_btn {
-    
+.ms-auto.nav_right {
+    position: absolute;
+    right: 0;
 }
 /* fine header */
 
@@ -67,19 +69,44 @@ header .navbar .container-fluid a .my_btn {
 
 .ms_star i.fa-star {
     display: inline-block;
-    width: 8%;
+    height: 20px;
+    width: 10%;
     font-size: 30px;
     line-height: 4px;
     vertical-align: middle;
 }
 
-.ms_star::before,
+/* .ms_star::before,
 .ms_star::after {
     height: 5px;
-    width: 20%;
+    width: 10px;
     border-radius: 10px;
     background-color: white;
     text-align: center;
+} */
+
+.star {
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.line {
+    height: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.line.black {
+    background-color: black;
+}
+
+.text-graphic {
+    width: 100%;
+    height: 50px;
 }
 /* FINE JUMBOTRON */
 /* main */
