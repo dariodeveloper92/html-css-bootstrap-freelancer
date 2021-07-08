@@ -5,94 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Importazione Css BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>BootStrap Freelancer</title>
 </head>
-<body>
-    <!-- header -->
+<body class="debug">
     <header>
-        <div class="container_header debug_blue white">
-            <div class="row text_align"><!-- Seconda cosa da fare -->
-                <div class="col-6 border">START BOOTSTRAP</div>
-                <div class="col-2 border">PORTFOLIO</div>
-                <div class="col-2 border">ABOUT</div>
-                <div class="col-2 border">CONTACT</div>
+        <div class="container h-100 d-flex my_header">
+            <div class="row w-100 align-items-center justify-content-center">
+                <div class="col-12"> </div>
+                <nav class="navbar navbar-expand-lg navbar-fixed-top ms_navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">StarBootstrap</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled navbar-fixed-bottom" href="#" tabindex="-1" aria-disabled="true"></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
+
+        
     </header>
-    <!-- fine header -->
-    <!-- main -->
+    <section id="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center white">
+                    <img src="img/avatar.svg" alt="avatar">
+                    <h1>Start Bootstrap</h1>
+                    <div id="line"></div>
+                    <div class="ms_star"><i class="fas fa-star"></i></div>
+                    <div id="line"></div>
+                    <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
+                </div>
+            </div>
+        </div>        
+    </section>
     <main>
-        <!-- JUMBO -->
-        <section class="jumbo debug_green">
-            <div class="row text_align">
-                <div class="col-12 border square">IMG</div>
-                <div class="col-12 border">START BOOTSTRAP</div>
-                <div class="col-12 border">STELLA</div>
-                <div class="col-12 border">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Portfolio</h2>
+                        <div class="ms_star"><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/cabin.png" alt="home"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/cake.png" alt="cake"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/circus.png" alt="circus"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/game.png" alt="game"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/safe.png" alt="safe"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 p-2">
+                        <div class="ms_portfolio_item"><img src="img/submarine.png" alt="submarine"></div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
-        <!-- FINE JUMBO -->
-        <!-- MAIN - TOP -->
-        <section class="main_top debug_white">
-            <div class="row text_align">
-                <div class="col-12 border">PORTFOLIO</div>
-                <hr>
-                <div class="col-4 border square">1</div>
-                <div class="col-4 border square">2</div>
-                <div class="col-4 border square">3</div>
-                <div class="col-4 border square">4</div>
-                <div class="col-4 border square">5</div>
-                <div class="col-4 border square">6</div>
-            </div>
-        </section>
-        <!-- FINE MAIN - TOP -->
-        <!-- MAIN - CENTER -->
-        <section class="main_center debug_green">
-            <div class="row text_align">
-                <div class="col-12 border">ABOUT</div>
-                <hr>
-                <div class="col-6 border">TESTO SINISTRO</div>
-                <div class="col-6 border">TESTO DESTRO</div>
-                <button type="button" class="btn btn-success  larghezza_btn">Download</button>
-            </div>
-        </section>
-        <!-- FINE MAIN - CENTER -->
-        <!-- MAIN - BOTTOM -->
-        <section class="main_bottom debug_white">
-            <div class="row text_align">
-                <div class="col-12 border">CONTACT ME</div>
-                <hr>
-                <div class="col-12 border align_left">Name</div>
-                <div class="col-12 border align_left">Email Address</div>
-                <div class="col-12 border align_left">Phone Number</div>
-                <div class="col-12 border align_left">Message</div>
-                <hr>
-                <button type="button" class="btn btn-success larghezza_btn">Send</button>
-            </div>
-        </section>
-        <!-- FINE MAIN - BOTTOM -->
+        <!-- Fine Portfolio -->
+        <section></section>
+        <section></section>
     </main>
-    <!-- fine main -->
-    <!-- footer -->
-    <footer class="debug_blue">
-        <div class="container_footer_top debug_blue white">
-            <div class="row text_align">
-                <div class="col-4 border">LOCATION</div>
-                <div class="col-4 border">AROUND THE WEB</div>
-                <div class="col-4 border">ABOUT FREELANCER</div>
-                <div class="col-4 border">2215 John Daniel Drive Clark, MO 54243</div>
-                <div class="col-4 border">icon</div>
-                <div class="col-4 border">Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="text_green">Start Bootstrap</a></div>
+    <footer>
+        <div class="container-fluid">
+            <div class="container-footer">
+
             </div>
-        <div class="container_footer_bottom debug_darkblue">
-            <div class="row text_align">
-                <div class="col-12 border">Copyright Your Wbsite 2019</div>
-            </div>    
-        </div> 
+        </div>
     </footer>
-    <!-- fine footer -->
 
     <!-- Importazione Js BS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

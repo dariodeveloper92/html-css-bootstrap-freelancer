@@ -4,109 +4,111 @@
     box-sizing: border-box;
 }
 
-/* header */
-header {
-    height: 90px;
-    width: 100%;
-}
-
-.container_header {
-    height: 100%;
-    width: 100%;
+/* common */
+body {
+    color: white;
 }
 
 .white {
     color: white;
 }
+/* fine common */
 
-.text_align {
-    text-align: center;
-    height: 100%;
-    align-items: center;
+/* header */
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #2c3e50;
+}
+
+.container.my_header {
+    width: 100%;
+}
+
+.navbar.ms_navbar {
+    margin-bottom: 0;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+
+.navbar.ms_navbar a {
+    color: white;
+    margin: 0 10px;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
 }
 /* fine header */
 
+/* JUMBOTRON */
+#jumbotron {
+    width: 100%;
+    background-color: lightgreen;
+    height: 100%;
+}
+
+.ms_star i.fa-star {
+    display: inline-block;
+    width: 8%;
+    font-size: 30px;
+    line-height: 4px;
+    vertical-align: middle;
+}
+
+#line {
+    height: 5px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+/* FINE JUMBOTRON */
 /* main */
 main {
     height: 100%;
     width: 100%;
 }
 
-.jumbo {
-    height: 400px;
+.ms_portfolio_item {
     width: 100%;
+    background-color: white;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 
-.main_top {
-    height: 400px;
+img {
     width: 100%;
-}
-
-.main_center {
-    height: 400px;
-    width: 100%;
-}
-
-#main_bottom {
-    height: 400px;
-    width: 100%;
-}
-
-.main_center .larghezza_btn,
-.main_bottom .larghezza_btn {
-    width: 100px;
-    display: flex;
-}
-
-.align_left {
-    margin: 0 25%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 /* fine main */
 
 /* footer */
 footer {
-    height: 290px;
-    width: 100%;
-}
-
-.container_footer_top {
     height: 200px;
     width: 100%;
 }
-
-.container_footer_bottom {
-    height: 90px;
-    width: 100%;
-}
-
-.text_green {
-    color: rgb(8, 243, 114);
-}
 /* fine footer */
 
-/* debug */
-.debug_blue {
-    background-color: darkblue;
-}
+/* DEBUG */
 
-.debug_green {
-    background-color: rgb(8, 243, 114);
+.debug footer {
+    background-color: lightgray;
 }
-
-.debug_white {
-    background-color: white;
-}
-
-.debug_darkblue {
-    background-color: rgb(4, 4, 41);
-}
-
-/* fine debug */
+/* FINE DEBUG */
