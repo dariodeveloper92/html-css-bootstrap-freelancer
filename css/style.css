@@ -170,7 +170,12 @@ img {
     font-size: 50px;
 }
 
-
+.form-floating> .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none ;
+    border-radius: 0;
+} 
 /* fine main */
 
 /* footer */
